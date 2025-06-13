@@ -6,13 +6,16 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { ProductComponent } from './pages/product/product.component';
+import { RedElDirective } from './directives/red-el.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ContactComponent,
-    ProductComponent
+    ProductComponent,
+    RedElDirective,
+    
   ],
   imports: [
     BrowserModule,
