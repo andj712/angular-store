@@ -5,11 +5,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './product.component.html',
   styleUrls: ['./product.component.scss']
 })
-export class ProductComponent implements OnInit {
+export class ProductComponent {
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+  buttonClick:boolean = true;
 
 }
